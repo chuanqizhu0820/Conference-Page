@@ -90,3 +90,63 @@ body {
     margin-right: 30px; */
     z-index: 10;
 }
+
+#join-btn {
+    width: 60vw;
+    height: 70px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#about-less {
+    display: block;
+}
+
+#about-all {
+    display: none;
+}
+
+#show-more {
+    display: inline-block;
+    margin-top: 40px;
+    width: 80vw;
+    height: 60px;
+}
+
+#show-less {
+    display: none;
+    margin-top: 40px;
+    width: 80vw;
+    height: 60px;
+}
+
+@media (min-width: 768px) {
+    #showbtn {
+        display: none;
+    }
+
+    #about-less {
+        display: none !important;
+    }
+
+    #about-all {
+        display: block !important;
+    }
+}
+
+#show-more #down {
+    padding-left: 7px;
+    padding-bottom: 3px;
+    width: 20px;
+    height: auto;
+}
+
+#show-less #up {
+    padding-left: 7px;
+    padding-bottom: 3px;
+    width: 20px;
+    height: auto;
+}
