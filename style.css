@@ -1,6 +1,48 @@
+#social {
+    height: 40px;
+    width: 100vw;
+    background-color: rgb(58, 57, 57);
+}
+
+#social ul {
+    list-style-type: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 20vw;
+}
+
+#social ul li {
+    margin-right: 2vw;
+}
+
+.litext {
+    padding-top: 9px;
+}
+
+#fb {
+    width: 11px;
+    height: auto;
+    margin-top: 9px;
+}
+
+#tt {
+    width: 80%;
+    height: auto;
+    margin-top: 5px;
+}
+
+#navbarNavDropdown {
+    margin-left: 35vw;
+}
+
+#navbarNavDropdown li {
+    margin-right: 5vw;
+}
+
 body {
     background-color: rgb(247, 247, 247);
     background-image: url("img/icons/home-background.png");
+    background-position: top 1000px;
 }
 
 #home {
