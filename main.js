@@ -116,10 +116,10 @@ let allNum = speakerInfo.length;
 for (let i = 0; i < lessNum; i++) {
     lessHtml += ` 
     <div class="speaker row align-items-center">
-    <div class="col-5 col-sm-4 align-self-start">
+    <div class="col-5 col-sm-4 col-xl-3 align-self-start">
     <img src="${speakerInfo[i].photo}"  alt="${speakerInfo[i].name}">
     </div>
-    <div class="col-7 col-sm-8">
+    <div class="col-7 col-sm-8 col-xl-9 ">
     <ul>
     <li class="name">${speakerInfo[i].name}</li>
     <li class="role">${speakerInfo[i].role}</li>
@@ -140,10 +140,10 @@ for (let i = 0; i < allNum; i++) {
     allHtml += ` 
     <div class="col">
     <div class="speaker row align-items-center">
-    <div class="col-5 col-sm-4 align-self-start">
+    <div class="col-5 col-sm-4 col-xl-3 align-self-start">
     <img src="${speakerInfo[i].photo}"  alt="${speakerInfo[i].name}">
     </div>
-    <div class="col-7 col-sm-8">
+    <div class="col-7 col-sm-8 col-xl-9">
     <ul>
     <li class="name">${speakerInfo[i].name}</li>
     <li class="role">${speakerInfo[i].role}</li>

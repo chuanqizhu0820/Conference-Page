@@ -32,17 +32,24 @@
 }
 
 #navbarNavDropdown {
-    margin-left: 35vw;
+    margin-left: 5vw;
 }
 
 #navbarNavDropdown li {
     margin-right: 5vw;
 }
 
-body {
-    background-color: rgb(247, 247, 247);
+#navbarNavDropdown li:nth-child(2) {
+    margin-left: 25vw;
+}
+
+#logo {
+    height: 30px;
+    width: auto;
+}
+
+main {
     background-image: url("img/icons/home-background.png");
-    background-position: top 1000px;
 }
 
 #home {
@@ -299,4 +306,16 @@ body {
     padding-bottom: 3px;
     width: 20px;
     height: auto;
+}
+
+#footer {
+    margin-top: 30px;
+    background-color: rgb(46, 45, 45);
+}
+
+#footer h3 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
 }
