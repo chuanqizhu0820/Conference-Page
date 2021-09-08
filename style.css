@@ -26,6 +26,12 @@ body {
     color: orangered;
     font-weight: bold;
     font-size: 38px;
+    background-image: url("img/topic-back.png");
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: orangered;
 }
 
 @media (min-width: 768px) {
