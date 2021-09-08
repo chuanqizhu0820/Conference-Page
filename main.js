@@ -106,7 +106,7 @@ speakerInfo = [
     }
 ];
 
-const lessSpeaker = document.querySelector("#about-less");
+const lessSpeaker = document.querySelector("#speaker-less");
 
 let lessHtml = '';
 let allHtml = '';
@@ -131,7 +131,7 @@ for (let i = 0; i < lessNum; i++) {
 }
 lessSpeaker.innerHTML = lessHtml;
 
-const allSpeaker = document.querySelector("#about-all");
+const allSpeaker = document.querySelector("#speaker-all");
 
 console.log(screen.width);
 

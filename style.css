@@ -73,7 +73,7 @@ body {
     }
 }
 
-#about h3 {
+#speaker h3 {
     margin-top: 30px;
     margin-bottom: 40px;
     text-align: center;
@@ -190,11 +190,11 @@ body {
     margin-bottom: 40px;
 }
 
-#about-less {
+#speaker-less {
     display: block;
 }
 
-#about-all {
+#speaker-all {
     display: none;
 }
 
@@ -217,11 +217,11 @@ body {
         display: none;
     }
 
-    #about-less {
+    #speaker-less {
         display: none !important;
     }
 
-    #about-all {
+    #speaker-all {
         display: block !important;
     }
 }
