@@ -131,7 +131,7 @@ for (let i = 0; i < lessNum; i++) {
 }
 lessSpeaker.innerHTML = lessHtml;
 
-const allSpeaker = document.querySelector("#about-all div");
+const allSpeaker = document.querySelector("#about-all");
 
 console.log(screen.width);
 
@@ -161,7 +161,7 @@ const showLess = document.querySelector("#show-less");
 
 function showSpeakers() {
     lessSpeaker.style.display = "none";
-    allSpeaker.style.display = "block";
+    allSpeaker.style.display = "flex";
     showMore.style.display = "none"
     showLess.style.display = "inline-block"
 }
