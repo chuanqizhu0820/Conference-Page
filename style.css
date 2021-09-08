@@ -86,13 +86,24 @@ body {
 }
 
 .speaker img {
-    object-fit: fill;
-    height: 25vw;
-    width: auto;
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .speaker {
+        margin: 0;
+    }
+
+    /* .speaker img {
+        height: 150px;
+        width: auto;
+    } */
 }
 
 .speaker ul {
     list-style-type: none;
+    padding-left: 0px;
 }
 
 .speaker ul .name {
@@ -223,6 +234,8 @@ body {
 
     #speaker-all {
         display: block !important;
+        width: 80vw;
+        margin-left: 10vw;
     }
 }
 

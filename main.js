@@ -116,10 +116,10 @@ let allNum = speakerInfo.length;
 for (let i = 0; i < lessNum; i++) {
     lessHtml += ` 
     <div class="speaker row align-items-center">
-    <div class="col-4 align-self-start">
+    <div class="col-5 col-sm-4 align-self-start">
     <img src="${speakerInfo[i].photo}"  alt="${speakerInfo[i].name}">
     </div>
-    <div class="col-8">
+    <div class="col-7 col-sm-8">
     <ul>
     <li class="name">${speakerInfo[i].name}</li>
     <li class="role">${speakerInfo[i].role}</li>
@@ -131,8 +131,8 @@ for (let i = 0; i < lessNum; i++) {
 }
 lessSpeaker.innerHTML = lessHtml;
 
-const allSpeaker = document.querySelector("#speaker-all");
-
+const showAllSpeaker = document.querySelector("#speaker-all");
+const allSpeaker = document.querySelector("#speaker-all div");
 console.log(screen.width);
 
 
@@ -140,10 +140,10 @@ for (let i = 0; i < allNum; i++) {
     allHtml += ` 
     <div class="col">
     <div class="speaker row align-items-center">
-    <div class="col-4 align-self-start">
+    <div class="col-5 col-sm-4 align-self-start">
     <img src="${speakerInfo[i].photo}"  alt="${speakerInfo[i].name}">
     </div>
-    <div class="col-8">
+    <div class="col-7 col-sm-8">
     <ul>
     <li class="name">${speakerInfo[i].name}</li>
     <li class="role">${speakerInfo[i].role}</li>
@@ -161,7 +161,7 @@ const showLess = document.querySelector("#show-less");
 
 function showSpeakers() {
     lessSpeaker.style.display = "none";
-    allSpeaker.style.display = "flex";
+    showAllSpeaker.style.display = "block";
     showMore.style.display = "none"
     showLess.style.display = "inline-block"
 }
@@ -170,7 +170,7 @@ showMore.addEventListener("click", showSpeakers);
 
 function closeSpeakers() {
     lessSpeaker.style.display = "block";
-    allSpeaker.style.display = "none";
+    showAllSpeaker.style.display = "none";
     showMore.style.display = "inline-block"
     showLess.style.display = "none"
 }
