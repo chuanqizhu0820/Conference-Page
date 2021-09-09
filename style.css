@@ -355,14 +355,56 @@ main {
     height: auto;
 }
 
-#footer {
+#partner {
     margin-top: 30px;
+    padding-bottom: 50px;
     background-color: rgb(46, 45, 45);
 }
 
-#footer h3 {
+#partner h3 {
     padding-top: 40px;
     padding-bottom: 30px;
     text-align: center;
     color: white;
+}
+
+#partner-logo {
+    width: 70vw;
+    margin-left: 15vw;
+}
+
+#partner-logo img {
+    width: 100%;
+    height: auto;
+}
+
+#partner-logo > div > div:nth-child(1) img {
+    width: 70%;
+    height: auto;
+}
+
+#partner-logo > div > div:nth-child(2) img {
+    padding-top: 25%;
+}
+
+#partner-logo > div > div:nth-child(5) img {
+    width: 70%;
+    height: auto;
+}
+
+#statement {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 70vw;
+    margin-left: 15vw;
+}
+
+#statement > div > div:nth-child(1) img {
+    width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#statement ul {
+    list-style-type: none;
 }
