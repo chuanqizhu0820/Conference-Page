@@ -5,15 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conference</title>
+    <title>About</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <div id="social">
+            <ul class="d-flex flex-row justify-content-md-end">
+                <li><img id="fb" src="img/icons/fb.png" alt="facebook">
+                </li>
+                <li><img id="tt" src="img/icons/twitter.png" alt="twitter"></li>
+                <li class="litext">English</li>
+                <li class="litext">My Page</li>
+                <li class="litext">Logout</li>
+            </ul>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -22,8 +32,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
+                        <li class="nav-item "><a href="http://127.0.0.1:5500"><img id="logo" src="img/icons/logo.png"
+                                    alt="logo"></a>
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Program</a>
@@ -37,14 +53,74 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="#">News</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Join!</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <h1>this is about</h1>
+        <section id="about-home">
+            <h1 id="topic">Fundamental and Application of Web Development</h1>
+            <div id="description">
+                <p>A web development course that teaches HTML, CSS, and Javascript and enables you to build your own
+                    website from scratch.
+                    The learning path involving doing real-world projects with partners can lead you to a job in the
+                    highly demanded work
+                    market. </p>
+            </div>
+            <div id="contact">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, laborum nobis! Sed, praesentium
+                    accusantium. Minima cupiditate labore enim ipsa perferendis consectetur cumque reprehenderit
+                    voluptatem harum?
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </section>
+        <section id="about-logo">
+            <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, non.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem velit quia ex nemo! Cum, odit ipsam
+                ipsum
+                nulla accusamus molestias veritatis rerum maxime hic fugit non. Nostrum rerum nesciunt fuga consectetur
+                veritatis, voluptatum placeat debitis ad itaque, nemo commodi voluptas deleniti pariatur sint nobis
+                atque
+                optio at quam, officia quis?</p>
+            <div>
+                <img src="img/icons/logo.png" alt="">
+            </div>
+        </section>
+        <section id="about-past">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio est eius placeat debitis dolore incidunt.
+            </p>
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">image here<img src="" alt=""></div>
+                <div class="col">image here<img src="" alt=""></div>
+            </div>
+        </section>
+
     </main>
+    <section id="footer">
+        <div id="statement">
+            <div class="row align-items-center">
+                <div class="col-sm-4 col-lg-2"><img src="img/icons/logo.png" alt=""></div>
+                <div class="col-sm-8 col-lg-10">
+                    <ul>
+                        <li>
+                            <p>Some Copyright Reserved by FAWD </p>
+                        </li>
+                        <li>
+                            <p>This website is for education traning purpose. The event doesn't accutally exist.
+                                The speaks' information is collected from amazon book store. The infromatino will
+                                never be used for any commercial purpose.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>

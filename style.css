@@ -34,13 +34,24 @@
 #navbarNavDropdown {
     justify-content: end;
     margin-right: 12vw;
+    z-index: 100;
 }
 
 #navbarNavDropdown li {
     margin-right: 2vw;
 }
 
-#navbarNavDropdown li:nth-child(6) a {
+#navbarNavDropdown li:nth-child(1) {
+    position: absolute;
+    top: 13px;
+    left: 12vw;
+}
+
+#navbarNavDropdown li:nth-child(2) {
+    display: none;
+}
+
+#navbarNavDropdown li:nth-child(8) a {
     text-decoration: none;
     border: orangered solid 4px;
     color: orangered;
@@ -54,11 +65,6 @@
 }
 
 #logo {
-    position: absolute;
-    top: 52px;
-    left: 12vw;
-    bottom: 0;
-    right: 0;
     height: 30px;
     width: auto;
 }
@@ -69,7 +75,20 @@
     }
 
     #navbarNavDropdown li:nth-child(2) {
-        margin-left: 0;
+        display: block;
+    }
+
+    #navbarNavDropdown li:nth-child(8) a {
+        text-decoration: none;
+        border: none;
+        color: orangered;
+        font-weight: normal;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     #social {
@@ -270,6 +289,11 @@ main {
         padding-bottom: 0;
     }
 
+    .session-box:hover {
+        cursor: pointer;
+        border: white solid 2px;
+    }
+
     .session-box .imgdiv {
         text-align: center;
         margin-top: 20px;
@@ -302,6 +326,26 @@ main {
     border: none;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+#see-link {
+    display: none;
+    width: 60vw;
+    margin-left: 20vw;
+    height: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    #join-btn {
+        display: none;
+    }
+
+    #see-link {
+        display: block;
+    }
 }
 
 #speaker-less {
