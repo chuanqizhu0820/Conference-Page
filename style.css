@@ -96,7 +96,8 @@ main {
         background-image: none;
     }
 
-    body {
+    header,
+    main {
         background-image: url("img/icons/home-background.png");
     }
 
@@ -370,7 +371,7 @@ main {
 
 #partner-logo {
     width: 70vw;
-    margin-left: 15vw;
+    margin-left: 14vw;
 }
 
 #partner-logo img {
@@ -381,6 +382,7 @@ main {
 #partner-logo > div > div:nth-child(1) img {
     width: 70%;
     height: auto;
+    /* padding-left: 20%; */
 }
 
 #partner-logo > div > div:nth-child(2) img {
@@ -392,7 +394,16 @@ main {
     height: auto;
 }
 
+#partner-logo > div div {
+    text-align: center;
+}
+
+/* @media (max-width:768px) {
+
+} */
+
 #statement {
+    background-color: white;
     margin-top: 40px;
     margin-bottom: 50px;
     width: 70vw;
@@ -400,9 +411,21 @@ main {
 }
 
 #statement > div > div:nth-child(1) img {
-    width: 60%;
+    width: 100%;
     height: auto;
     margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    #statement > div > div:nth-child(1) img {
+        width: 30%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    #statement > div > div:nth-child(1) {
+        text-align: center;
+    }
 }
 
 #statement ul {
