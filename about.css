@@ -153,6 +153,11 @@ main {
     margin-left: 20vw;
 }
 
+#about-past img {
+    width: 100%;
+    height: auto;
+}
+
 #statement {
     background-color: white;
     margin-top: 40px;
