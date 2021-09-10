@@ -5,7 +5,7 @@ A Microverse capstone project
 HTML CSS
 
 ## Live Demo
-https://chuanqizhu0820.github.io/My-Portfolio/
+https://chuanqizhu0820.github.io/conference-page/
 
 👤 **Author1**
 
