@@ -2,10 +2,10 @@
 A Microverse capstone project
 
 ## Built With
-HTML CSS
+HTML CSS Javascript
 
 ## Live Demo
-https://chuanqizhu0820.github.io/My-Portfolio/
+https://chuanqizhu0820.github.io/conference-page/
 
 👤 **Author1**
 
