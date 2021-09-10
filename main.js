@@ -121,6 +121,7 @@ for (let i = 0; i < lessNum; i += 1) {
     <ul>
     <li class="name">${speakerInfo[i].name}</li>
     <li class="role">${speakerInfo[i].role}</li>
+    <li><hr class="hr-role" ></li>
     <li class="desc">${speakerInfo[i].about}</li>
     </ul>
     </div>
@@ -143,6 +144,7 @@ for (let i = 0; i < allNum; i += 1) {
     <ul>
     <li class="name">${speakerInfo[i].name}</li>
     <li class="role">${speakerInfo[i].role}</li>
+    <li><hr class="hr-role" ></li>
     <li class="desc">${speakerInfo[i].about}</li>
     </ul>
     </div>

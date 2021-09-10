@@ -1,4 +1,5 @@
 #social {
+  display: none;
   height: 40px;
   width: 100vw;
   background-color: rgb(58, 57, 57);
@@ -42,13 +43,36 @@
 }
 
 #navbarNavDropdown li:nth-child(1) {
+  display: none;
   position: absolute;
   top: 13px;
   left: 12vw;
 }
 
 #navbarNavDropdown li:nth-child(2) {
+  display: block;
+}
+
+#navbarNavDropdown li:nth-child(3) a {
+  color: black;
+}
+
+#navbarNavDropdown li:nth-child(8) a {
+  text-decoration: none;
+  color: orangered;
+  font-weight: normal;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#logo {
   display: none;
+  height: 30px;
+  width: auto;
 }
 
 #contact a {
@@ -56,52 +80,35 @@
   font-weight: bold;
 }
 
-#navbarNavDropdown li:nth-child(8) a {
-  text-decoration: none;
-  border: orangered solid 4px;
-  color: orangered;
-  font-weight: normal;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  margin-top: 2px;
-  margin-bottom: 10px;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-#logo {
-  height: 30px;
-  width: auto;
-}
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   #navbarNavDropdown li:nth-child(1) {
-    display: none;
-  }
-
-  #navbarNavDropdown li:nth-child(2) {
     display: block;
   }
 
-  #navbarNavDropdown li:nth-child(8) a {
-    text-decoration: none;
-    border: none;
+  #navbarNavDropdown li:nth-child(2) {
+    display: none;
+  }
+
+  #navbarNavDropdown li:nth-child(3) a {
     color: orangered;
-    font-weight: normal;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+  }
+
+  #navbarNavDropdown li:nth-child(8) a {
+    border: orangered solid 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
   #social {
-    display: none;
+    display: block;
   }
 
   #logo {
-    display: none;
+    display: block;
   }
 }
 
@@ -115,16 +122,13 @@ header {
 
 #about-home {
   background-color: rgb(242, 242, 242);
-  padding-top: 10vh;
+  padding-top: 5vh;
   padding-bottom: 50px;
-
-  /* margin-left: 20px;
-    margin-right: 20px; */
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   #about-home {
-    padding-top: 5vh;
+    padding-top: 10vh;
   }
 }
 
@@ -156,7 +160,7 @@ header {
   }
 }
 
-#description p {
+#description article {
   font-size: 1em;
   color: grey;
   padding: 15px;
@@ -305,8 +309,6 @@ header {
 #partner-logo > div > div:nth-child(1) img {
   width: 70%;
   height: auto;
-
-  /* padding-left: 20%; */
 }
 
 #partner-logo > div > div:nth-child(2) img {
@@ -331,7 +333,7 @@ header {
 }
 
 @media (min-width: 768px) {
-  #footer {
+  footer {
     background-color: rgb(29, 29, 29);
   }
 
@@ -343,7 +345,7 @@ header {
 #statement > div > div:nth-child(1) img {
   width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 #statement ul {
@@ -351,20 +353,20 @@ header {
   font-size: 10px;
 }
 
-@media (max-width: 576px) {
+#statement > div > div:nth-child(1) {
+  text-align: center;
+}
+
+@media (min-width: 576px) {
   #statement > div > div:nth-child(1) img {
     width: 100%;
     height: auto;
-    margin-top: 30px;
-  }
-
-  #statement > div > div:nth-child(1) {
-    text-align: center;
+    margin-bottom: 20px;
   }
 }
 
 @media (min-width: 768px) {
-  #footer {
+  footer {
     background-color: rgb(5, 5, 5);
   }
 
