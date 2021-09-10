@@ -53,6 +53,11 @@
   display: block;
 }
 
+#contact a {
+  color: rgb(46, 45, 45);
+  font-weight: bold;
+}
+
 #navbarNavDropdown li:nth-child(3) a {
   color: black;
 }
@@ -73,11 +78,6 @@
   display: none;
   height: 30px;
   width: auto;
-}
-
-#contact a {
-  color: rgb(46, 45, 45);
-  font-weight: bold;
 }
 
 @media (min-width: 768px) {
