@@ -271,6 +271,12 @@ header {
     background-color: rgb(46, 45, 45);
 }
 
+@media (min-width: 768px) {
+    #partner {
+        display: none;
+    }
+}
+
 #partner h3 {
     padding-top: 40px;
     text-align: center;
@@ -323,10 +329,25 @@ header {
     margin-left: 15vw;
 }
 
+@media (min-width: 768px) {
+    #footer {
+        background-color: rgb(29, 29, 29);
+    }
+
+    #statement {
+        background-color: rgb(29, 29, 29);
+    }
+}
+
 #statement > div > div:nth-child(1) img {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
+}
+
+#statement ul {
+    list-style-type: none;
+    font-size: 10px;
 }
 
 @media (max-width: 576px) {
@@ -341,6 +362,18 @@ header {
     }
 }
 
-#statement ul {
-    list-style-type: none;
+@media (min-width: 768px) {
+    #footer {
+        background-color: rgb(5, 5, 5);
+    }
+
+    #statement {
+        background-color: rgb(5, 5, 5);
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #statement ul {
+        color: white;
+    }
 }
