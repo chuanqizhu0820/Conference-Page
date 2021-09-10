@@ -133,8 +133,6 @@ lessSpeaker.innerHTML = lessHtml;
 
 const showAllSpeaker = document.querySelector("#speaker-all");
 const allSpeaker = document.querySelector("#speaker-all div");
-console.log(screen.width);
-
 
 for (let i = 0; i < allNum; i++) {
     allHtml += ` 

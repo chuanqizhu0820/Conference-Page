@@ -51,6 +51,10 @@
     display: none;
 }
 
+#navbarNavDropdown li:nth-child(3) a {
+    color: orangered;
+}
+
 #navbarNavDropdown li:nth-child(8) a {
     text-decoration: none;
     border: orangered solid 4px;
@@ -76,6 +80,10 @@
 
     #navbarNavDropdown li:nth-child(2) {
         display: block;
+    }
+
+    #navbarNavDropdown li:nth-child(3) a {
+        color: black;
     }
 
     #navbarNavDropdown li:nth-child(8) a {
@@ -115,9 +123,12 @@ main {
         background-image: none;
     }
 
-    header,
     main {
         background-image: url("img/icons/home-background.png");
+    }
+
+    #speaker {
+        background-image: white;
     }
 
     #home {
@@ -186,6 +197,14 @@ main {
     color: grey;
 }
 
+hr {
+    border: solid orangered 1px;
+    opacity: 1;
+    width: 50px;
+    margin-left: 50vw;
+    transform: translate(-50%);
+}
+
 @media (min-width: 768px) {
     #time {
         margin-left: 12vw;
@@ -197,8 +216,17 @@ main {
 
 #speaker h3 {
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 0;
     text-align: center;
+}
+
+#hr-speaker {
+    border: solid orangered 1px;
+    opacity: 1;
+    width: 50px;
+    margin-left: 50vw;
+    transform: translate(-50%);
+    margin-bottom: 40px;
 }
 
 .speaker {
@@ -244,7 +272,7 @@ main {
 
 #program h3 {
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 0;
     text-align: center;
     color: white;
 }
@@ -408,14 +436,22 @@ main {
 
 #partner h3 {
     padding-top: 40px;
-    padding-bottom: 30px;
     text-align: center;
     color: white;
 }
 
+#hr-partner {
+    border: solid orangered 1px;
+    opacity: 1;
+    width: 50px;
+    margin-left: 50vw;
+    transform: translate(-50%);
+    margin-bottom: 30px;
+}
+
 #partner-logo {
-    width: 70vw;
-    margin-left: 14vw;
+    width: 90vw;
+    margin-left: 5vw;
 }
 
 #partner-logo img {
@@ -462,7 +498,7 @@ main {
 
 @media (max-width: 576px) {
     #statement > div > div:nth-child(1) img {
-        width: 30%;
+        width: 100%;
         height: auto;
         margin-top: 30px;
     }
