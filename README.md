@@ -1,5 +1,5 @@
 # conference-page
 A Microverse capstone project
 
-#Acknowledgement
+Acknowledgement
 Original design idea by Cindy Shin in Behance.
