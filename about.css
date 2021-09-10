@@ -155,8 +155,8 @@ header {
 @media (min-width: 768px) {
   #topic {
     font-size: 45px;
-    width: 50vw;
-    margin-left: 25vw;
+    width: 70vw;
+    margin-left: 15vw;
   }
 }
 
@@ -172,7 +172,7 @@ header {
 }
 
 @media (min-width: 768px) {
-  #description p {
+  #description article {
     width: 70vw;
     margin-left: 15vw;
   }
@@ -203,11 +203,18 @@ header {
   margin-right: 10vw;
 }
 
+@media (min-width: 768px) {
+  #about-logo p {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+}
+
 #about-logo div {
   margin-top: 10px;
   margin-bottom: 30px;
-  width: 50vw;
-  margin-left: 25vw;
+  width: 40vw;
+  margin-left: 30vw;
 }
 
 #about-logo img {
