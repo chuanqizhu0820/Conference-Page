@@ -1,6 +1,8 @@
 # conference-page
 A Microverse capstone project
 
+![screenshot](conference-page.png)
+
 ## Built With
 HTML CSS Javascript
 
