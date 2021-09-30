@@ -5,7 +5,7 @@ A Microverse capstone project
 HTML CSS Javascript
 
 ## Live Demo
-https://chuanqizhu0820.github.io/conference-page/
+https://chuanqizhu0820.github.io/Conference-Page/
 
 👤 **Author1**
 
